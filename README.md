@@ -21,9 +21,39 @@
 
 <br />
 
-```ts
+### <b>Install</b>
 
+```ts
+npm install @ricardo-jrm/dervish
+
+yarn add @ricardo-jrm/dervish
 ```
+
+<br />
+
+### <b>Usage</b>
+
+```ts
+import {
+  dateFormat,
+  dateRelative,
+  hexToRgb,
+  rgbToHex,
+  numberFormat,
+  stringCapitalize,
+  stringTruncate,
+} from '@ricardo-jrm/dervish';
+```
+
+<br />
+
+### <b>Packages</b>
+
+- [@ricardo-jrm/color-converter](https://github.com/ricardo-jrm/color-converter)
+- [@ricardo-jrm/date-format](https://github.com/ricardo-jrm/date-format)
+- [@ricardo-jrm/number-format](https://github.com/ricardo-jrm/number-format)
+- [@ricardo-jrm/string-capitalize](https://github.com/ricardo-jrm/string-capitalize)
+- [@ricardo-jrm/string-truncate](https://github.com/ricardo-jrm/string-truncate)
 
 <br />
 

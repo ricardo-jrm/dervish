@@ -63,5 +63,12 @@
     "prettier": "^2.4.1",
     "semantic-release": "^18.0.1",
     "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@ricardo-jrm/color-converter": "^1.0.0",
+    "@ricardo-jrm/date-format": "^1.1.1",
+    "@ricardo-jrm/number-format": "^1.0.0",
+    "@ricardo-jrm/string-capitalize": "^1.0.0",
+    "@ricardo-jrm/string-truncate": "^1.1.2"
   }
 }
