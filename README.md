@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🟪 `@ricardo-jrm/dervish`
+# 🌙 `@ricardo-jrm/dervish`
 
 <b>Typescript Utility</b>
 
