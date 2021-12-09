@@ -4,7 +4,6 @@
   "version": "0.0.0-development",
   "main": "dist/index.min.js",
   "types": "dist/index.d.ts",
-  "type": "module",
   "private": false,
   "repository": {
     "type": "git",
@@ -32,11 +31,6 @@
     "prepare": "husky install",
     "semantic-release": "semantic-release --branches main"
   },
-  "jest": {
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
@@ -59,16 +53,18 @@
     "gulp-terser": "^2.1.0",
     "husky": "^7.0.0",
     "jest": "^27.3.1",
+    "jest-esm-transformer": "^1.0.0",
     "lint-staged": "^12.1.2",
     "prettier": "^2.4.1",
     "semantic-release": "^18.0.1",
+    "ts-jest": "^27.1.1",
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "@ricardo-jrm/color-converter": "^1.0.0",
+    "@ricardo-jrm/color-converter": "^1.0.1",
     "@ricardo-jrm/date-format": "^1.1.1",
     "@ricardo-jrm/number-format": "^1.0.0",
-    "@ricardo-jrm/string-capitalize": "^1.0.0",
+    "@ricardo-jrm/string-capitalize": "^1.0.1",
     "@ricardo-jrm/string-truncate": "^1.1.2"
   }
 }
