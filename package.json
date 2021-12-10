@@ -1,8 +1,8 @@
 {
   "name": "@ricardo-jrm/dervish",
   "description": "Typescript Utility",
-  "version": "0.0.1-development",
-  "main": "dist/index.min.js",
+  "version": "0.0.3-development",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
@@ -23,9 +23,10 @@
   ],
   "scripts": {
     "build": "tsc",
-    "bundle": "gulp",
+    "compile:noemit": "tsc-files --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
+    "prettier:fix": "prettier --write --ignore-unknown .",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "prepare": "husky install",
@@ -47,13 +48,8 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-terser": "^2.1.0",
     "husky": "^7.0.0",
     "jest": "^27.3.1",
-    "jest-esm-transformer": "^1.0.0",
     "lint-staged": "^12.1.2",
     "prettier": "^2.4.1",
     "semantic-release": "^18.0.1",
@@ -61,10 +57,10 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "@ricardo-jrm/color-converter": "^1.0.1",
-    "@ricardo-jrm/date-format": "^1.1.1",
-    "@ricardo-jrm/number-format": "^1.0.0",
-    "@ricardo-jrm/string-capitalize": "^1.0.1",
-    "@ricardo-jrm/string-truncate": "^1.1.2"
+    "@ricardo-jrm/color-converter": "^2.0.1",
+    "@ricardo-jrm/date-format": "^2.0.1",
+    "@ricardo-jrm/number-format": "^2.0.1",
+    "@ricardo-jrm/string-capitalize": "^2.0.1",
+    "@ricardo-jrm/string-truncate": "^3.0.1"
   }
 }
