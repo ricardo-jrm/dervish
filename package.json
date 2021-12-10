@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "compile:noemit": "tsc-files --noEmit",
+    "compile:noemit": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prettier:fix": "prettier --write --ignore-unknown .",
