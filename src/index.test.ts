@@ -39,7 +39,7 @@ describe('test exports', () => {
     mock('lorem ipsum dolor sit amet');
     expect(mock).toHaveBeenCalled();
   });
-  it('should run dateFormat', () => {
+  it('should run stringTruncate', () => {
     const mock = jest.fn(stringTruncate);
     mock('Lorem ipsum dolor sit amet', 20);
     expect(mock).toHaveBeenCalled();
