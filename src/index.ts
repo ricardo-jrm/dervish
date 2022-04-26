@@ -1,9 +1,9 @@
-export { hexToRgb, rgbToHex } from '@ricardo-jrm/color-converter';
+export { hexToRgb, rgbToHex } from '@ricardojrmcom/color-converter';
 
-export { dateFormat, dateRelative } from '@ricardo-jrm/date-format';
+export { dateFormat, dateRelative } from '@ricardojrmcom/date-format';
 
-export { numberFormat } from '@ricardo-jrm/number-format';
+export { numberFormat } from '@ricardojrmcom/number-format';
 
-export { stringCapitalize } from '@ricardo-jrm/string-capitalize';
+export { stringCapitalize } from '@ricardojrmcom/string-capitalize';
 
-export { stringTruncate } from '@ricardo-jrm/string-truncate';
+export { stringTruncate } from '@ricardojrmcom/string-truncate';

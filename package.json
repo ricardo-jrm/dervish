@@ -1,21 +1,21 @@
 {
-  "name": "@ricardo-jrm/dervish",
+  "name": "@ricardojrmcom/dervish",
   "description": "Typescript Utility",
-  "version": "0.0.6-development",
+  "version": "0.0.7-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/dervish.git"
+    "url": "https://github.com/ricardojrmcom/dervish.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/dervish#readme",
+  "homepage": "https://github.com/ricardojrmcom/dervish#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/dervish/issues"
+    "url": "https://github.com/ricardojrmcom/dervish/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -57,10 +57,10 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "@ricardo-jrm/color-converter": "^2.0.1",
-    "@ricardo-jrm/date-format": "^2.0.1",
-    "@ricardo-jrm/number-format": "^2.0.1",
-    "@ricardo-jrm/string-capitalize": "^2.0.1",
-    "@ricardo-jrm/string-truncate": "^3.0.1"
+    "@ricardojrmcom/color-converter": "4.0.0",
+    "@ricardojrmcom/date-format": "3.0.0",
+    "@ricardojrmcom/number-format": "2.1.0",
+    "@ricardojrmcom/string-capitalize": "2.1.0",
+    "@ricardojrmcom/string-truncate": "3.0.2"
   }
 }

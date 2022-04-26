@@ -1,17 +1,17 @@
 <div align="center">
 
-# 🌙 `@ricardo-jrm/dervish`
+# 🌙 `@ricardojrmcom/dervish`
 
 <b>Typescript Utility</b>
 
-![build](https://img.shields.io/github/workflow/status/ricardo-jrm/dervish/Continuous%20Integration?style=for-the-badge)
-![license](https://img.shields.io/github/license/ricardo-jrm/dervish?style=for-the-badge)
+![build](https://img.shields.io/github/workflow/status/ricardojrmcom/dervish/Continuous%20Integration?style=for-the-badge)
+![license](https://img.shields.io/github/license/ricardojrmcom/dervish?style=for-the-badge)
 
-![author](<https://img.shields.io/badge/Author-Ricardo%20%3Cl1b3r__--%3E%20Mota%20(%40ricardo--jrm)-orange?style=for-the-badge>)
+![author](<https://img.shields.io/badge/Author-Ricardo%20%3Cl1b3r__--%3E%20Mota%20(%40ricardojrmcom)-orange?style=for-the-badge>)
 
-![lang](https://img.shields.io/github/languages/top/ricardo-jrm/dervish?style=for-the-badge)
-![version](https://img.shields.io/npm/v/@ricardo-jrm/dervish?style=for-the-badge)
-![size](https://img.shields.io/bundlephobia/min/@ricardo-jrm/dervish?style=for-the-badge)
+![lang](https://img.shields.io/github/languages/top/ricardojrmcom/dervish?style=for-the-badge)
+![version](https://img.shields.io/npm/v/@ricardojrmcom/dervish?style=for-the-badge)
+![size](https://img.shields.io/bundlephobia/min/@ricardojrmcom/dervish?style=for-the-badge)
 
 </div>
 
@@ -24,9 +24,9 @@
 ### <b>Install</b>
 
 ```ts
-npm install @ricardo-jrm/dervish
+npm install @ricardojrmcom/dervish
 
-yarn add @ricardo-jrm/dervish
+yarn add @ricardojrmcom/dervish
 ```
 
 <br />
@@ -42,18 +42,18 @@ import {
   numberFormat,
   stringCapitalize,
   stringTruncate,
-} from '@ricardo-jrm/dervish';
+} from '@ricardojrmcom/dervish';
 ```
 
 <br />
 
 ### <b>Packages</b>
 
-- [@ricardo-jrm/color-converter](https://github.com/ricardo-jrm/color-converter)
-- [@ricardo-jrm/date-format](https://github.com/ricardo-jrm/date-format)
-- [@ricardo-jrm/number-format](https://github.com/ricardo-jrm/number-format)
-- [@ricardo-jrm/string-capitalize](https://github.com/ricardo-jrm/string-capitalize)
-- [@ricardo-jrm/string-truncate](https://github.com/ricardo-jrm/string-truncate)
+- [@ricardojrmcom/color-converter](https://github.com/ricardojrmcom/color-converter)
+- [@ricardojrmcom/date-format](https://github.com/ricardojrmcom/date-format)
+- [@ricardojrmcom/number-format](https://github.com/ricardojrmcom/number-format)
+- [@ricardojrmcom/string-capitalize](https://github.com/ricardojrmcom/string-capitalize)
+- [@ricardojrmcom/string-truncate](https://github.com/ricardojrmcom/string-truncate)
 
 <br />
 
@@ -63,8 +63,8 @@ import {
 
 ### <b>License</b>
 
-[MIT](https://github.com/ricardo-jrm/dervish/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardo-jrm](https://github.com/ricardo-jrm))
+[MIT](https://github.com/ricardojrmcom/dervish/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardojrmcom](https://github.com/ricardojrmcom))
 
-Bootstrapped with 🟪[@ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)
+Bootstrapped with 🟪[@ricardojrmcom/nova](https://github.com/ricardojrmcom/nova)
 
 <br />
